@@ -32,4 +32,4 @@ jobs:
         run: |
           cd auth \
           && npm install \
-          && npm test:ci
+          && npm run test:ci
