@@ -14,6 +14,7 @@ declare global {
   var signin: () => Promise<string[]>;
 }
 let mongo: any;
+console.log("as");
 beforeAll(async () => {
   process.env.JWT_KEY = "asdasdas";
   mongo = await MongoMemoryServer.create();
