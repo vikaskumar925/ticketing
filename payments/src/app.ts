@@ -11,6 +11,7 @@ import {
 import { createChargeRouter } from "./routes/new";
 
 const app = express();
+console.log("changes");
 app.set("trust proxy", true);
 app.use(json());
 app.use(
